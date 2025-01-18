@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transition</title>
+    <style>
+        /*annimation kora jay transition diye je koto tuko time use kore style ta apply hobe*/
+        /*shorthand = name|duration|easing function|delay*/
+        .box{
+            width: 300px;
+            height: 200px;
+            background-color: blue;
+        }
+        .box:hover{
+            transition: width 5s linear 2s;
+            /*delay dara bujay koto second por style kaj kora shuru korbe*/
+        }
+    </style>
 </head>
 <body>
-
+<div class="box"></div>
 </body>
 </html>
