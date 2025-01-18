@@ -6,19 +6,26 @@
     <title>Transition</title>
     <style>
         /*annimation kora jay transition diye je koto tuko time use kore style ta apply hobe*/
-        /*shorthand = name|duration|easing function|delay*/
+        /*shorthand = css property name|duration|easing function|delay , diye arekta abar use kora jabe arek css property er jonno*/
         .box{
             width: 300px;
             height: 200px;
             background-color: blue;
         }
         .box:hover{
-            transition: width 5s linear 2s;
+            width: 500px;
+            background-color: lightblue;
+            transition: background-color 3s linear 2s, width 5s linear;
             /*delay dara bujay koto second por style kaj kora shuru korbe*/
         }
     </style>
 </head>
 <body>
 <div class="box"></div>
+
+<h1>image optimization</h1>
+<!-- for image big size reduce use. web e joto width thakbe oto width e photo take size kore nei
+ photopea 
+ optimize png -->
 </body>
 </html>
