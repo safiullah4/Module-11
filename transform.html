@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .container, .inner{
+            width: 200px;
+            height: 200px;
+        }
+        .container{
+            background-color: aqua;
+            border: 2px solid steelblue;
+        }
+        .inner{
+        border: 2px solid brown;
+        background-color: palegoldenrod;
+        }
+        .inner:hover{
+            transform: scale(1.08);
+        }
+        /*transform:scale (x,y) diye choto boro kora jay 1.25 diye boro 0.25 diye quarter */
+        /*rotate korle oto degree onujayi gure*/
+        /*translate korle x ba y borabor shore jay ba jayga change kore*/
+        /*transform shorthand use kore shobgula akshate use kora jay. shorthand chara aktar por akta use korle prothom transform style cascade er jonno batil hoye jabe*/
+        /*tips- hover use kore transform:scale diye halka boro kora jay jokhon hover korbo. */
+    </style>
+</head>
+<body>
+    <h2>Explore transfrom And Translate </h2>
+    <div class="container"></div>
+        <div class="inner">Inner 1</div>
+    </div>
+    <div class="container">
+        <div class="inner">Inner 2</div>
+    </div>
+    <div class="container">
+        <div class="inner">Inner3</div>
+    </div>
+</body>
+</html>
